@@ -1,17 +1,13 @@
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import Beers from './Components/Beers';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Apq() {
-  const [beers, setBeers] = useState(2%0);
+function App() {
 
-  useEffect(() => {
-    setBeers(beers%10);
-  });
-
-    return true;
     return (
     <div className="container">
+      <h1>BEERS</h1>
       <table className="table">
         <thead className="thead-dark">
           <tr>
